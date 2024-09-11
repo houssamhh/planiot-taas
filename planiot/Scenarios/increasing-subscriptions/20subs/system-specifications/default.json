@@ -1,0 +1,269 @@
+{
+  "IoTdevices": [
+ {
+        "deviceId": "printing_source",
+        "deviceName": "printing_source",
+        "publishFrequency":1,
+        "messageSize":624394.2,
+        "distribution":"exponential",
+        "publishesTo":["topic_printing"]
+},
+{
+        "deviceId": "energymanagement_source",
+        "deviceName": "energymanagement_source",
+        "publishFrequency":1,
+        "messageSize":3324693.6,
+        "distribution":"exponential",
+        "publishesTo":["topic_energymanagement"]
+},
+{
+        "deviceId": "occupancymanagement_source",
+        "deviceName": "occupancymanagement_source",
+        "publishFrequency":1,
+        "messageSize":280313.84,
+        "distribution":"exponential",
+        "publishesTo":["topic_occupancymanagement"]
+},
+{
+        "deviceId": "videosurveillance_source",
+        "deviceName": "videosurveillance_source",
+        "publishFrequency": 1,
+        "messageSize": 14310092.37,
+        "distribution":"exponential",
+        "publishesTo":["topic_videosurveillance"]
+},
+{
+        "deviceId": "firedetection_source",
+        "deviceName": "firedetection_source",
+        "publishFrequency": 1,
+        "messageSize": 191693,
+        "distribution":"exponential",
+        "publishesTo":["topic_firedetection"]
+},
+{
+        "deviceId": "intrusiondetection_source",
+        "deviceName": "intrusiondetection_source",
+        "publishFrequency": 1,
+        "messageSize": 47583046.2,
+        "distribution":"exponential",
+        "publishesTo":["topic_intrusiondetection"]
+},
+{
+        "deviceId": "amazonecho_source",
+        "deviceName": "amazonecho_source",
+        "publishFrequency": 1,
+        "messageSize": 105869.28,
+        "distribution":"exponential",
+        "publishesTo":["topic_amazonecho"]
+},
+{
+        "deviceId": "smartthings_source",
+        "deviceName": "smartthings_source",
+        "publishFrequency": 1,
+        "messageSize": 205264.41,
+        "distribution":"exponential",
+        "publishesTo":["topic_smartthings"]
+},
+{
+        "deviceId": "bms_source",
+        "deviceName": "bms_source",
+        "publishFrequency": 1,
+        "messageSize": 16091324.56,
+        "distribution":"exponential",
+        "publishesTo":["topic_bms"]
+}
+  ],
+
+  "virtualSensors": [
+  ],
+
+"actuators": [
+  ],
+  
+  "applications": [
+{
+ "applicationName": "app_app38",
+"applicationId": "app_app38",
+"applicationCategory" : "VS",
+"priority": 0,
+"processingRate": 1000,
+"processingDistribution": "exponential",
+"subscribesTo": ["topic_videosurveillance"]
+},
+{
+ "applicationName": "app_app12",
+"applicationId": "app_app12",
+"applicationCategory" : "TS",
+"priority": 0,
+"processingRate": 1000,
+"processingDistribution": "exponential",
+"subscribesTo": ["topic_occupancymanagement"]
+},
+{
+ "applicationName": "app_app11",
+"applicationId": "app_app11",
+"applicationCategory" : "TS",
+"priority": 0,
+"processingRate": 1000,
+"processingDistribution": "exponential",
+"subscribesTo": ["topic_printing"]
+},
+{
+ "applicationName": "app_app36",
+"applicationId": "app_app36",
+"applicationCategory" : "VS",
+"priority": 0,
+"processingRate": 1000,
+"processingDistribution": "exponential",
+"subscribesTo": ["topic_videosurveillance","topic_intrusiondetection"]
+},
+{
+ "applicationName": "app_app22",
+"applicationId": "app_app22",
+"applicationCategory" : "RT",
+"priority": 0,
+"processingRate": 1000,
+"processingDistribution": "exponential",
+"subscribesTo": ["topic_firedetection","topic_smartthings"]
+},
+{
+ "applicationName": "app_app2",
+"applicationId": "app_app2",
+"applicationCategory" : "AN",
+"priority": 0,
+"processingRate": 1000,
+"processingDistribution": "exponential",
+"subscribesTo": ["topic_printing","topic_energymanagement","topic_videosurveillance","topic_intrusiondetection","topic_bms"]
+},
+{
+ "applicationName": "app_app1",
+"applicationId": "app_app1",
+"applicationCategory" : "AN",
+"priority": 0,
+"processingRate": 1000,
+"processingDistribution": "exponential",
+"subscribesTo": ["topic_energymanagement","topic_firedetection","topic_smartthings"]
+},
+{
+ "applicationName": "app_app21",
+"applicationId": "app_app21",
+"applicationCategory" : "RT",
+"priority": 0,
+"processingRate": 1000,
+"processingDistribution": "exponential",
+"subscribesTo": ["topic_occupancymanagement","topic_intrusiondetection","topic_amazonecho","topic_bms"]
+},
+{
+ "applicationName": "app_app23",
+"applicationId": "app_app23",
+"applicationCategory" : "RT",
+"priority": 0,
+"processingRate": 1000,
+"processingDistribution": "exponential",
+"subscribesTo": ["topic_firedetection"]
+}
+  ],
+
+"applicationCategories": [
+  {
+    "categoryId": "AN",
+    "categoryName": "analytics"
+  },
+  {
+    "categoryId": "RT",
+    "categoryName": "realtime"
+  },
+  {
+    "categoryId": "TS",
+    "categoryName": "transactional"
+  },
+  {
+    "categoryId": "VS",
+    "categoryName": "videoStreaming"
+  }
+],
+  "topics": [
+{
+ "topicName": "topic_smartthings",
+"topicId": "topic_smartthings",
+"priority": 0,
+"publishers": ["smartthings_source"],
+"subscribers": ["app_app1","app_app22"]
+},
+{
+ "topicName": "topic_bms",
+"topicId": "topic_bms",
+"priority": 0,
+"publishers": ["bms_source"],
+"subscribers": ["app_app2","app_app21"]
+},
+{
+ "topicName": "topic_firedetection",
+"topicId": "topic_firedetection",
+"priority": 0,
+"publishers": ["firedetection_source"],
+"subscribers": ["app_app22","app_app23","app_app1"]
+},
+{
+ "topicName": "topic_videosurveillance",
+"topicId": "topic_videosurveillance",
+"priority": 0,
+"publishers": ["videosurveillance_source"],
+"subscribers": ["app_app38","app_app36","app_app2"]
+},
+{
+ "topicName": "topic_occupancymanagement",
+"topicId": "topic_occupancymanagement",
+"priority": 0,
+"publishers": ["occupancymanagement_source"],
+"subscribers": ["app_app12","app_app21"]
+},
+{
+ "topicName": "topic_printing",
+"topicId": "topic_printing",
+"priority": 0,
+"publishers": ["printing_source"],
+"subscribers": ["app_app11","app_app2"]
+},
+{
+ "topicName": "topic_energymanagement",
+"topicId": "topic_energymanagement",
+"priority": 0,
+"publishers": ["energymanagement_source"],
+"subscribers": ["app_app2","app_app1"]
+},
+{
+ "topicName": "topic_intrusiondetection",
+"topicId": "topic_intrusiondetection",
+"priority": 0,
+"publishers": ["intrusiondetection_source"],
+"subscribers": ["app_app36","app_app21","app_app2"]
+},
+{
+ "topicName": "topic_amazonecho",
+"topicId": "topic_amazonecho",
+"priority": 0,
+"publishers": ["amazonecho_source"],
+"subscribers": ["app_app21"]
+}
+  ],
+
+  "broker": [
+  {
+    "brokerId": "input",
+    "brokerName": "input",
+    "bufferSize": 10000,
+    "processingRate": 100000000,
+    "topics": ["topic_printing", "topic_energymanagement", "topic_occupancymanagement", "topic_videosurveillance", "topic_firedetection", "topic_intrusiondetection", "topic_amazonecho", "topic_smartthings", "topic_bms"]
+  }
+],
+
+"systemBandwidth": 650,
+"bandwidthPolicy": "none",
+"priorityPolicy": "apps",
+"commChannelLossAN": 0,
+"commChannelLossRT": 0,
+"commChannelLossTS": 0,
+"commChannelLossVS": 0,
+"brokerCapacity": 100
+}

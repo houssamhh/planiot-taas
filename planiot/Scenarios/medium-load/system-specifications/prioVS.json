@@ -1,0 +1,647 @@
+{
+  "IoTdevices": [
+ {
+        "deviceId": "topic1_source",
+        "deviceName": "topic1_source",
+        "publishFrequency":260,
+        "messageSize":200,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic1"]
+},
+{
+        "deviceId": "topic2_source",
+        "deviceName": "topic2_source",
+        "publishFrequency":148,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic2"]
+},
+{
+        "deviceId": "topic3_source",
+        "deviceName": "topic3_source",
+        "publishFrequency":100,
+        "messageSize":40,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic3"]
+},
+{
+        "deviceId": "topic4_source",
+        "deviceName": "topic4_source",
+        "publishFrequency":135,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic4"]
+},
+{
+        "deviceId": "topic5_source",
+        "deviceName": "topic5_source",
+        "publishFrequency":93,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic5"]
+},
+{
+        "deviceId": "topic6_source",
+        "deviceName": "topic6_source",
+        "publishFrequency":75,
+        "messageSize":70,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic6"]
+},
+{
+        "deviceId": "topic7_source",
+        "deviceName": "topic7_source",
+        "publishFrequency":150,
+        "messageSize":2000,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic7"]
+},
+{
+        "deviceId": "topic8_source",
+        "deviceName": "topic8_source",
+        "publishFrequency":132,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic8"]
+},
+{
+        "deviceId": "topic9_source",
+        "deviceName": "topic9_source",
+        "publishFrequency":138,
+        "messageSize":1500,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic9"]
+},
+{
+        "deviceId": "topic10_source",
+        "deviceName": "topic10_source",
+        "publishFrequency":200,
+        "messageSize":1000,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic10"]
+},
+{
+        "deviceId": "topic11_source",
+        "deviceName": "topic11_source",
+        "publishFrequency":300,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic11"]
+},
+{
+        "deviceId": "topic12_source",
+        "deviceName": "topic12_source",
+        "publishFrequency":330,
+        "messageSize":500,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic12"]
+},
+{
+        "deviceId": "topic13_source",
+        "deviceName": "topic13_source",
+        "publishFrequency":310,
+        "messageSize":6000,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic13"]
+},
+{
+        "deviceId": "topic14_source",
+        "deviceName": "topic14_source",
+        "publishFrequency":40,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic14"]
+},
+{
+        "deviceId": "topic15_source",
+        "deviceName": "topic15_source",
+        "publishFrequency":60,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic15"]
+},
+{
+        "deviceId": "topic16_source",
+        "deviceName": "topic16_source",
+        "publishFrequency":75,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic16"]
+},
+{
+        "deviceId": "topic17_source",
+        "deviceName": "topic17_source",
+        "publishFrequency":65,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic17"]
+},
+{
+        "deviceId": "topic18_source",
+        "deviceName": "topic18_source",
+        "publishFrequency":25,
+        "messageSize":100,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic18"]
+},
+{
+        "deviceId": "topic19_source",
+        "deviceName": "topic19_source",
+        "publishFrequency":170,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic19"]
+},
+{
+        "deviceId": "topic20_source",
+        "deviceName": "topic20_source",
+        "publishFrequency":60,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic20"]
+},
+{
+        "deviceId": "topic21_source",
+        "deviceName": "topic21_source",
+        "publishFrequency":130,
+        "messageSize":410,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic21"]
+},
+{
+        "deviceId": "topic22_source",
+        "deviceName": "topic22_source",
+        "publishFrequency":60,
+        "messageSize":10429,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic22"]
+},
+{
+        "deviceId": "topic23_source",
+        "deviceName": "topic23_source",
+        "publishFrequency":105,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic23"]
+},
+{
+        "deviceId": "topic24_source",
+        "deviceName": "topic24_source",
+        "publishFrequency":185,
+        "messageSize":41293,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic24"]
+},
+{
+        "deviceId": "topic25_source",
+        "deviceName": "topic25_source",
+        "publishFrequency":100,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic25"]
+},
+{
+        "deviceId": "topic26_source",
+        "deviceName": "topic26_source",
+        "publishFrequency":10,
+        "messageSize":94120,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic26"]
+},
+{
+        "deviceId": "topic27_source",
+        "deviceName": "topic27_source",
+        "publishFrequency":25,
+        "messageSize":40,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic27"]
+},
+{
+        "deviceId": "topic28_source",
+        "deviceName": "topic28_source",
+        "publishFrequency":200,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic28"]
+},
+{
+        "deviceId": "topic29_source",
+        "deviceName": "topic29_source",
+        "publishFrequency":80,
+        "messageSize":75,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic29"]
+},
+{
+        "deviceId": "topic30_source",
+        "deviceName": "topic30_source",
+        "publishFrequency":110,
+        "messageSize":20480,
+        "distribution":"exponential",
+        "publishesTo":["topic_topic30"]
+}
+  ],
+
+  "virtualSensors": [
+  ],
+
+"actuators": [
+  ],
+  
+  "applications": [
+     {
+      "applicationName": "app_app1",
+      "applicationId": "app_app1",
+      "applicationCategory" : "AN",
+      "priority": 1,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic1", "topic_topic2", "topic_topic14", "topic_topic21", "topic_topic26"]
+    },
+    {
+      "applicationName": "app_app2",
+      "applicationId": "app_app2",
+      "applicationCategory" : "AN",
+      "priority": 1,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic3", "topic_topic9", "topic_topic12", "topic_topic19","topic_topic22"]
+    },
+    {
+      "applicationName": "app_app3",
+      "applicationId": "app_app3",
+      "applicationCategory" : "AN",
+      "priority": 1,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic1", "topic_topic4", "topic_topic3", "topic_topic16", "topic_topic23", "topic_topic27"]
+    },
+    {
+      "applicationName": "app_app4",
+      "applicationId": "app_app4",
+      "applicationCategory" : "AN",
+      "priority": 1,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic5", "topic_topic6", "topic_topic16", "topic_topic21", "topic_topic27"]
+    },
+    {
+      "applicationName": "app_app5",
+      "applicationId": "app_app5",
+      "applicationCategory" : "RT",
+      "priority": 1,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic1", "topic_topic7", "topic_topic14", "topic_topic19", "topic_topic22"]
+    },
+    {
+      "applicationName": "app_app6",
+      "applicationId": "app_app6",
+      "applicationCategory" : "RT",
+      "priority": 1,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic5", "topic_topic8", "topic_topic15", "topic_topic20", "topic_topic26"]
+    },
+    {
+      "applicationName": "app_app7",
+      "applicationId": "app_app7",
+      "applicationCategory" : "RT",
+      "priority": 1,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic1", "topic_topic2", "topic_topic9", "topic_topic17", "topic_topic25", "topic_topic30"]
+    },
+    {
+      "applicationName": "app_app8",
+      "applicationId": "app_app8",
+      "applicationCategory" : "RT",
+      "priority": 1,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic7", "topic_topic9", "topic_topic11", "topic_topic21", "topic_topic28"]
+    },
+    {
+      "applicationName": "app_app9",
+      "applicationId": "app_app9",
+      "applicationCategory" : "TS",
+      "priority": 1,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic2", "topic_topic10", "topic_topic12", "topic_topic22", "topic_topic29"]
+    },
+    {
+      "applicationName": "app_app10",
+      "applicationId": "app_app10",
+      "applicationCategory" : "TS",
+      "priority": 1,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic12", "topic_topic13", "topic_topic17", "topic_topic18"]
+    },
+    {
+      "applicationName": "app_app11",
+      "applicationId": "app_app11",
+      "applicationCategory" : "TS",
+      "priority": 1,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic6", "topic_topic10", "topic_topic13", "topic_topic26", "topic_topic29"]
+    },
+    {
+      "applicationName": "app_app12",
+      "applicationId": "app_app12",
+      "applicationCategory" : "TS",
+      "priority": 1,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic7", "topic_topic11", "topic_topic13", "topic_topic18"]
+    },
+    {
+      "applicationName": "app_app13",
+      "applicationId": "app_app13",
+      "applicationCategory" : "VS",
+      "priority": 0,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic2", "topic_topic4", "topic_topic19", "topic_topic14", "topic_topic23"]
+    },
+    {
+      "applicationName": "app_app14",
+      "applicationId": "app_app14",
+      "applicationCategory" : "VS",
+      "priority": 0,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic5", "topic_topic8", "topic_topic20", "topic_topic24", "topic_topic28"]
+    },
+    {
+      "applicationName": "app_app15",
+      "applicationId": "app_app15",
+      "applicationCategory" : "VS",
+      "priority": 0,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic2", "topic_topic11", "topic_topic15", "topic_topic24", "topic_topic30"]
+    },
+    {
+      "applicationName": "app_app16",
+      "applicationId": "app_app16",
+      "applicationCategory" : "VS",
+      "priority": 0,
+      "processingRate": 1000,
+      "processingDistribution": "exponential",
+      "subscribesTo": ["topic_topic14", "topic_topic16", "topic_topic17", "topic_topic25", "topic_topic30"]
+    }
+  ],
+
+"applicationCategories": [
+  {
+    "categoryId": "AN",
+    "categoryName": "analytics"
+  },
+  {
+    "categoryId": "RT",
+    "categoryName": "realtime"
+  },
+  {
+    "categoryId": "TS",
+    "categoryName": "transactional"
+  },
+  {
+    "categoryId": "VS",
+    "categoryName": "videoStreaming"
+  }
+],
+    "topics": [
+    {
+        "topicId": "topic_topic1",
+        "topicName": "topic_topic1",
+        "priority": 0,
+        "publishers": ["topic1_source"],
+        "subscribers": ["app_app1","app_app3","app_app5","app_app7"]
+},
+{
+        "topicId": "topic_topic2",
+        "topicName": "topic_topic2",
+        "priority": 0,
+        "publishers": ["topic2_source"],
+        "subscribers": ["app_app1","app_app7","app_app9","app_app13","app_app15"]
+},
+{
+        "topicId": "topic_topic14",
+        "topicName": "topic_topic14",
+        "priority": 0,
+        "publishers": ["topic14_source"],
+        "subscribers": ["app_app1","app_app5","app_app13","app_app16"]
+},
+{
+        "topicId": "topic_topic21",
+        "topicName": "topic_topic21",
+        "priority": 0,
+        "publishers": ["topic21_source"],
+        "subscribers": ["app_app1","app_app4","app_app8"]
+},
+{
+        "topicId": "topic_topic26",
+        "topicName": "topic_topic26",
+        "priority": 0,
+        "publishers": ["topic26_source"],
+        "subscribers": ["app_app1","app_app6","app_app11"]
+},
+{
+        "topicId": "topic_topic3",
+        "topicName": "topic_topic3",
+        "priority": 0,
+        "publishers": ["topic3_source"],
+        "subscribers": ["app_app2","app_app3"]
+},
+{
+        "topicId": "topic_topic9",
+        "topicName": "topic_topic9",
+        "priority": 0,
+        "publishers": ["topic9_source"],
+        "subscribers": ["app_app2","app_app7","app_app8"]
+},
+{
+        "topicId": "topic_topic12",
+        "topicName": "topic_topic12",
+        "priority": 0,
+        "publishers": ["topic12_source"],
+        "subscribers": ["app_app2","app_app9","app_app10"]
+},
+{
+        "topicId": "topic_topic19",
+        "topicName": "topic_topic19",
+        "priority": 0,
+        "publishers": ["topic19_source"],
+        "subscribers": ["app_app2","app_app5","app_app13"]
+},
+{
+        "topicId": "topic_topic22",
+        "topicName": "topic_topic22",
+        "priority": 0,
+        "publishers": ["topic22_source"],
+        "subscribers": ["app_app2","app_app5","app_app9"]
+},
+{
+        "topicId": "topic_topic4",
+        "topicName": "topic_topic4",
+        "priority": 0,
+        "publishers": ["topic4_source"],
+        "subscribers": ["app_app3","app_app13"]
+},
+{
+        "topicId": "topic_topic16",
+        "topicName": "topic_topic16",
+        "priority": 0,
+        "publishers": ["topic16_source"],
+        "subscribers": ["app_app3","app_app4","app_app16"]
+},
+{
+        "topicId": "topic_topic23",
+        "topicName": "topic_topic23",
+        "priority": 0,
+        "publishers": ["topic23_source"],
+        "subscribers": ["app_app3","app_app13"]
+},
+{
+        "topicId": "topic_topic27",
+        "topicName": "topic_topic27",
+        "priority": 0,
+        "publishers": ["topic27_source"],
+        "subscribers": ["app_app3","app_app4"]
+},
+{
+        "topicId": "topic_topic5",
+        "topicName": "topic_topic5",
+        "priority": 0,
+        "publishers": ["topic5_source"],
+        "subscribers": ["app_app4","app_app6","app_app14"]
+},
+{
+        "topicId": "topic_topic6",
+        "topicName": "topic_topic6",
+        "priority": 0,
+        "publishers": ["topic6_source"],
+        "subscribers": ["app_app4","app_app11"]
+},
+{
+        "topicId": "topic_topic7",
+        "topicName": "topic_topic7",
+        "priority": 0,
+        "publishers": ["topic7_source"],
+        "subscribers": ["app_app5","app_app8","app_app12"]
+},
+{
+        "topicId": "topic_topic8",
+        "topicName": "topic_topic8",
+        "priority": 0,
+        "publishers": ["topic8_source"],
+        "subscribers": ["app_app6","app_app14"]
+},
+{
+        "topicId": "topic_topic15",
+        "topicName": "topic_topic15",
+        "priority": 0,
+        "publishers": ["topic15_source"],
+        "subscribers": ["app_app6","app_app15"]
+},
+{
+        "topicId": "topic_topic20",
+        "topicName": "topic_topic20",
+        "priority": 0,
+        "publishers": ["topic20_source"],
+        "subscribers": ["app_app6","app_app14"]
+},
+{
+        "topicId": "topic_topic17",
+        "topicName": "topic_topic17",
+        "priority": 0,
+        "publishers": ["topic17_source"],
+        "subscribers": ["app_app7","app_app10","app_app16"]
+},
+{
+        "topicId": "topic_topic25",
+        "topicName": "topic_topic25",
+        "priority": 0,
+        "publishers": ["topic25_source"],
+        "subscribers": ["app_app7","app_app16"]
+},
+{
+        "topicId": "topic_topic30",
+        "topicName": "topic_topic30",
+        "priority": 0,
+        "publishers": ["topic30_source"],
+        "subscribers": ["app_app7","app_app15","app_app16"]
+},
+{
+        "topicId": "topic_topic11",
+        "topicName": "topic_topic11",
+        "priority": 0,
+        "publishers": ["topic11_source"],
+        "subscribers": ["app_app8","app_app12","app_app15"]
+},
+{
+        "topicId": "topic_topic28",
+        "topicName": "topic_topic28",
+        "priority": 0,
+        "publishers": ["topic28_source"],
+        "subscribers": ["app_app8","app_app14"]
+},
+{
+        "topicId": "topic_topic10",
+        "topicName": "topic_topic10",
+        "priority": 0,
+        "publishers": ["topic10_source"],
+        "subscribers": ["app_app9","app_app11"]
+},
+{
+        "topicId": "topic_topic29",
+        "topicName": "topic_topic29",
+        "priority": 0,
+        "publishers": ["topic29_source"],
+        "subscribers": ["app_app9","app_app11"]
+},
+{
+        "topicId": "topic_topic13",
+        "topicName": "topic_topic13",
+        "priority": 0,
+        "publishers": ["topic13_source"],
+        "subscribers": ["app_app10","app_app11","app_app12"]
+},
+{
+        "topicId": "topic_topic18",
+        "topicName": "topic_topic18",
+        "priority": 0,
+        "publishers": ["topic18_source"],
+        "subscribers": ["app_app10","app_app12"]
+},
+{
+        "topicId": "topic_topic24",
+        "topicName": "topic_topic24",
+        "priority": 0,
+        "publishers": ["topic24_source"],
+        "subscribers": ["app_app14","app_app15"]
+}
+  ],
+
+  "broker": [
+  {
+    "brokerId": "input",
+    "brokerName": "input",
+    "bufferSize": 10000,
+    "processingRate": 100000000,
+    "topics": ["topic_topic1","topic_topic2","topic_topic3","topic_topic4","topic_topic5","topic_topic6","topic_topic7","topic_topic8","topic_topic9","topic_topic10","topic_topic11","topic_topic12","topic_topic13","topic_topic14","topic_topic15","topic_topic16","topic_topic17","topic_topic18","topic_topic19","topic_topic20","topic_topic21","topic_topic22","topic_topic23","topic_topic24","topic_topic25","topic_topic26","topic_topic27","topic_topic28","topic_topic29","topic_topic30"]
+  }
+],
+
+"systemBandwidth": 230,
+"bandwidthPolicy": "none",
+"priorityPolicy": "apps",
+"commChannelLossAN": 0,
+"commChannelLossRT": 0,
+"commChannelLossTS": 0,
+"commChannelLossVS": 0,
+"brokerCapacity": -1
+}

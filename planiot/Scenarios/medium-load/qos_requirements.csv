@@ -1,0 +1,5 @@
+category,response_time,throughput,drop_rate
+analytics,10,0,0.1
+realtime,0.4,28.8,0.02
+transactional,4,0,0
+videostreaming,2,202,0.2
